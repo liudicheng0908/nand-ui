@@ -1,0 +1,30 @@
+{
+  "name": "@nand-ui/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "build": "vite build"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "nand-ui",
+    "vue3组件库",
+    "vue ui",
+    "components",
+    "beautiful"
+  ],
+  "author": "Components Team",
+  "license": "MIT",
+  "dependencies": {
+    "@nand-ui/utils": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.28.4"
+  }
+}

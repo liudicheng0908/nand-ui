@@ -1,0 +1,49 @@
+@use './mixins/mixins.scss' as *;
+@font-face {
+  font-family: 'nand-ui-icons'; /* Project id 2885434 */
+  src: url('./fonts/iconfont.woff2') format('woff2'), url('./fonts/iconfont.woff') format('woff'),
+    url('./fonts/iconfont.ttf') format('truetype');
+}
+[class^='#{$namespace}-icon'],
+[class*='#{$namespace}-icon'] {
+  font-family: 'nand-ui-icons' !important;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.#{$namespace}-icon-morentouxiang:before {
+  content: '\e60a';
+}
+
+.#{$namespace}-icon-pingjiazhushou:before {
+  content: '\e60d';
+}
+
+.#{$namespace}-icon-peisongguanli:before {
+  content: '\e60e';
+}
+
+.#{$namespace}-icon-shipinhaoguanli:before {
+  content: '\e60f';
+}
+
+.#{$namespace}-icon-erjigongyinglian:before {
+  content: '\e607';
+}
+
+.#{$namespace}-icon-wodekanjia:before {
+  content: '\e605';
+}
+
+.#{$namespace}-icon-weixiu:before {
+  content: '\e602';
+}
+
+.#{$namespace}-icon-aichegujiabeifen7:before {
+  content: '\e603';
+}
+
+.#{$namespace}-icon-xinchebaojia:before {
+  content: '\e604';
+}

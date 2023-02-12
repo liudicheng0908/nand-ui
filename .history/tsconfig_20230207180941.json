@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./inner/tsconfig/tsconfig.web.json" },
+    { "path": "./inner/tsconfig/tsconfig.play.json" },
+    { "path": "./inner/tsconfig/tsconfig.node.json" },
+    { "path": "./inner/tsconfig/tsconfig.vite-config.json" },
+    { "path": "./inner/tsconfig/tsconfig.vitest.json" }
+  ]
+}
