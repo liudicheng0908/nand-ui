@@ -1,0 +1,19 @@
+{
+  "hash": "965e208f",
+  "browserHash": "9e0384f2",
+  "optimized": {
+    "vue": {
+      "src": "../../../node_modules/.pnpm/vue@3.2.47/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "82adf361",
+      "needsInterop": false
+    },
+    "mitt": {
+      "src": "../../../node_modules/.pnpm/mitt@3.0.0/node_modules/mitt/dist/mitt.mjs",
+      "file": "mitt.js",
+      "fileHash": "80d97037",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}

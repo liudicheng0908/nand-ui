@@ -1,0 +1,57 @@
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+.nand-modal-default{
+  width:100%;
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  background: rgba(0,0,0,.4);
+  z-index: 8880;
+  .nand-modal-contentbox{
+    width:35%;
+    background: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 12px 0 rgba(7, 7, 7, 0.1);
+    .nand-modal-header{
+      width:100%;
+      height: 50px;
+      position: relative;
+      padding:0 20px;
+      box-sizing: border-box;
+      border-bottom:1px solid #f0f0f0;
+      .nand-modal-title{
+        margin:0;
+        line-height: 50px;
+        color:#505050;
+        font-size:17px;
+      }
+      i.nand-modal-close{
+        line-height: 50px;
+        font-size:17px;
+        position: absolute;
+        right:20px;
+        top:0;
+        cursor: pointer;
+      }
+    }
+    .nand-modal-content{
+      padding:20px;
+      box-sizing: border-box;
+    }
+    .nand-modal-footer{
+      border-top:1px solid #f0f0f0;
+      text-align: right;
+      padding:10px 20px;
+      box-sizing: border-box;
+    }
+  }
+}
