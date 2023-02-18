@@ -8,7 +8,7 @@
 * 💪 Vue 3 Composition API
 * 🔥 Written in TypeScript
 
-<p align="center">Kitty UI - A Vue.js 3 UI library</p>
+<p align="center">Nand UI - A Vue.js 3 UI library</p>
 
 ## Install
 ```
